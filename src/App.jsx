@@ -1,15 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import data from './data/data.json';
-// import Header from "./components/Header/Header.jsx";
-// import Tours from "./components/Tours/Tours.jsx";
-// import Footer from "./components/Footer/Footer.jsx";
+import { Routes, Route } from "react-router-dom";
+import TourDetails from "./components/TourDetails/TourDetails.js";
 import Home from "./components/Home/Home.jsx";
 function App() {
     return (
-        <div>
-            <Home data = {data}/>
-        </div>
+        
+        <Routes>
+                <Route path="/" element={<Home data = {data}/>} />
+               
+            </Routes>
+        
     )
 }
 export default App;
