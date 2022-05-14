@@ -1,19 +1,24 @@
-function Tours({ data }) {
+import React from 'react';
+//import Tour from './tour/tour';
+import "./Tours.css";
+import "./tour/tour";
+import Tour from "./tour/tour";
+
+let Tours = ({data}) => {
     return (
         <>
             {
-                data.map((city, index) => {
+               data.map((city , index) => {
                     return (
-                        <div key={index}>
-                            <p>Place to visit :{city.name}</p>
-                            <img src={city.image} alt="" />
-                        </div>
+                        <Tour key={index} city = {city} />
                     )
+
                 })
             }
         </>
+
+
     )
-}
+};
 
 export default Tours;
-

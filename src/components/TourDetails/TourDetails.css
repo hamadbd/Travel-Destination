@@ -1,0 +1,11 @@
+article {
+    text-align: center;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    background-color: #E2DEA9;  
+}
+
+hr{
+    height:2px;border-width:0;color:#141E27;background-color:#141E27
+}
