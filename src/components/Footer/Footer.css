@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syne+Tactile&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-footer{
-    margin-top: 8px;
-    background-color: #3700ff;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    color: white;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   width: 100%;
+   background-color: rgb(248, 248, 248);
+   color: black;
+   text-align: center;
 }
-footer a {
-    color: aliceblue;
-    text-align: center;
-    line-height: 10%;
-    font-size:x-large;
-    justify-content:center;
-    margin: 10px;
-    
-  }
-  footer i{ 
-    color: rgb(255, 255, 255);
-  
+
+p{
+  font-size: x-large;
+  font-weight: 900;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 16px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+

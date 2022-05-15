@@ -1,19 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syne+Tactile&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-header{
-    background-color: #3700ff;
-    font-size: xx-large;
-    border-radius: 0.5%;
-    line-height: 3.5;
-    margin: auto;
-    display: block;
-    align-items: center;
-    height:fit-content;
-    justify-content: space-between;
-    text-align: center;
+nav{ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
 }
-  header label{
-    font-family: 'Nunito', sans-serif;
-    color: white;
-  }
