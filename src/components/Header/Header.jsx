@@ -1,14 +1,11 @@
-import React from 'react';
 import "./Header.css";
-import Navbar from "../Navbar/Navbar.jsx";
+import { Link } from 'react-router-dom';
 function Header() {
-    return(
-        <>
-        <header>
-        <Navbar />
-        </header>
-        </>
+    return (
         
+        <nav>
+        <Link to="/"> Home</Link>
+    </nav>
     )
-  };
-  export default Header;
+}
+export default Header;

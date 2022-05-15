@@ -1,19 +1,18 @@
 import React from 'react';
+//import Tours from '../Tours';
+import { Link } from "react-router-dom";
 import "./tour.css";
-const Tour = ({data}) =>{
-    return(
-        <>
-        
-        <div id={data.id}>
-        <h3>Place :{data.name}</h3>
-        <img src={data.image} alt="" />
+
+export default function Tour({city}){
+    return (
+        <div className="bodyDiv">
+            <h2>{city.name}</h2>
+
+            <Link to={`city/${city.id}`}>
+                <img src={city.image} alt="img" />
+                <hr />
+            </Link>
+
         </div>
-        
-        
-        </>
-        
-        
     )
 };
-
-export default Tour;

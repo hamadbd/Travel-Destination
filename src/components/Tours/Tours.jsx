@@ -1,25 +1,23 @@
 import React from 'react';
+//import Tour from './tour/tour';
 import "./Tours.css";
-import Tour from '../Tours/tour/tour.jsx';
-const Tours = (props) =>{
-    return(
-        <>
-        <div id="content">
-        {
-            props.tour.map(data => {
-                return(
-                    <>
-                    <Tour data={data}/>
-                    </>
-                )
-                
-            })
-        }
+import "./tour/tour";
+import Tour from "./tour/tour";
 
-        </div>
+let Tours = ({data}) => {
+    return (
+        <>
+            {
+               data.map((city , index) => {
+                    return (
+                        <Tour key={index} city = {city} />
+                    )
+
+                })
+            }
         </>
-        
-        
+
+
     )
 };
 
