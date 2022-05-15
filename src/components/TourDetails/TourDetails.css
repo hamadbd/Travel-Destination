@@ -1,11 +1,20 @@
-article {
-    text-align: center;
-    font-style: initial;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-    background-color: #E2DEA9;  
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-hr{
-    height:2px;border-width:0;color:#141E27;background-color:#141E27
+
+#card{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    align-items: center;
+    text-align: center;
+    width:50% ;
+    height:fit-content;
+    margin: auto;
+    display: block;
+    align-items: center;
+    border:groove 2px black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
 }
