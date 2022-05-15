@@ -1,17 +1,15 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
-import data from './data/data.json';
+import Home from './components/Home/Home';
 import { Routes, Route } from "react-router-dom";
-import TourDetails from "./components/TourDetails/TourDetails.js";
-import Home from "./components/Home/Home.jsx";
-function App() {
-    return (
-        
-        <Routes>
-                <Route path="/" element={<Home data = {data}/>} />
-               
-            </Routes>
-        
-    )
+import data from './data/data.json';
+import "./App.css";
+
+export default function App() {
+  return (
+    <>
+    <Routes>
+    <Route path="/" element={<Home data={data}/>} />
+    </Routes>
+    </>
+  )
 }
-export default App;
